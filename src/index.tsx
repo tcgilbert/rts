@@ -1,8 +1,9 @@
 import ReactDOM from "react-dom";
 import GuestList from "./state/GuestList";
 // import FindUser from "./state/FindUser";
+// import FindUser from "./classes/FindUser";
+import FindUser from "./refs/FindUser";
 import EventComponent from "./events/EventComponent";
-import FindUser from "./classes/FindUser";
 
 const users = [
     { name: "Sarah", age: 20 },
@@ -15,7 +16,7 @@ const App = () => {
         <div>
             {/* <FindUser /> */}
             {/* <EventComponent /> */}
-            <FindUser users={users} />
+            <FindUser />
         </div>
     );
 };
