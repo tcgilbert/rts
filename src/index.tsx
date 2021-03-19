@@ -1,14 +1,12 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from "react-dom";
+import GuestList from "./state/GuestList";
 
 const App = () => {
     return (
         <div>
-            <h1>Hi There</h1>
+            <GuestList />
         </div>
-    )
-}
+    );
+};
 
-ReactDOM.render(
-    <App />,
-    document.querySelector('#root')
-)
+ReactDOM.render(<App />, document.querySelector("#root"));
